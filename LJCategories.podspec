@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
     s.source_files = 'LJCategories/**/*.{h,m}'
     s.public_header_files = 'LJCategories/**/*.{h}'
     s.requires_arc = true
-end
 
 s.frameworks = 'UIKit', 'CoreFoundation'
+
+end
